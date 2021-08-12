@@ -1,0 +1,120 @@
+{
+  "stores": [
+    {
+      "id": 1,
+      "name": "Park Row at Beekman St",
+      "address": "38 Park Row",
+      "city": "New York",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    },
+    {
+      "id": 2,
+      "name": "Store Alcalá",
+      "address": "Calle de Alcalá, 21",
+      "city": "Madrid",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    },
+    {
+      "id": 3,
+      "name": "Chambers and West Broadway",
+      "address": "125 Chambers Street",
+      "city": "New York",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    },
+    {
+      "id": 4,
+      "name": "Covent Garden - Russell St",
+      "address": "10 Russell Street",
+      "city": "London",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    },
+    {
+      "id": 5,
+      "name": "Monmouth St",
+      "address": "11 Monmouth Street",
+      "city": "London",
+      "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "shoes"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Air Max 90",
+      "price": 100,
+      "description": "Men shoes",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4318d938-7ac3-49b7-8e8f-4a53e040ce5f/calzado-air-max-90-B1fbSM.png",
+      "categoryId": 1,
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "name": "Nike Space Hippie 01",
+      "price": 130,
+      "description": "Men shoes",
+      "image": "https://static.nike.com/a/images/c_limit,w_318,f_auto/t_product_v1/6be628ae-3050-4f9c-ba02-80f8c61c139b/calzado-space-hippie-01-Q6Dpb0.png",
+      "categoryId": 1,
+      "stock": 10
+    },
+    {
+      "id": 3,
+      "name": "Nike Air Force 1 Crater",
+      "price": 125,
+      "description": "Men shoes",
+      "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/9ff6d8fd-fdff-4626-9969-a38b09f42d7f/calzado-air-force-1-crater-JsRtrN.png",
+      "categoryId": 1,
+      "stock": 10
+    },
+    {
+      "id": 4,
+      "name": "Adidas Superstar SE",
+      "price": 190,
+      "description": "Women shoes",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e54ebed3d6bd4b7193fead20001ec7df_9366/Tenis_Superstar_Blanco_H05667_01_standard.jpg",
+      "categoryId": 1,
+      "stock": 10
+    },
+    {
+      "id": 5,
+      "name": "Adidas Marimekko NMD_R1",
+      "price": 100,
+      "description": "Women shoes",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1fbb72ff015c447e9970acf300db6769_9366/tenis-marimekko-nmd_r1.jpg",
+      "categoryId": 1,
+      "stock": 10
+    },
+    {
+      "id": 6,
+      "name": "Adidas Stan Smith Marimekko",
+      "price": 120,
+      "description": "Women shoes",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/131be89487e7444ca658ace80105f73a_9366/tenis-stan-smith-marimekko.jpg",
+      "categoryId": 1,
+      "stock": 10
+    }
+
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "name": "Dominicode",
+      "date": "01/12/1995",
+      "shippingAddress": "Av. de la Granvia de Hospitalet, 115",
+      "city": "Barcelona",
+      "pickup": true
+    }
+  ],
+  "detailsOrders": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "quantity": 10,
+      "productName": "Product name"
+    }
+  ]
+}

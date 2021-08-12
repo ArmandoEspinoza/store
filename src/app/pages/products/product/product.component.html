@@ -1,0 +1,26 @@
+<mat-card class="card">
+  <mat-card-title>
+   {{product.name}}
+  </mat-card-title>
+
+
+  <img mat-card-image src={{product.image}}>
+  <mat-card-content>
+    
+    <h3>
+      {{product.description}}
+    </h3>
+  </mat-card-content>
+
+  <mat-card-subtitle>
+   Price: {{product.price | currency}}
+  </mat-card-subtitle>
+
+  <mat-card-actions>
+    <button mat-raised-button color="accent" (click)="onClick()">Add to cart
+      <mat-icon aria-hidden="false">shopping_cart</mat-icon>
+    </button>
+   
+  </mat-card-actions>
+
+</mat-card>
